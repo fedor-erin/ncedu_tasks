@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE students [
+<!ELEMENT list (student)+>
+<!ATTLIST list name CDATA #REQUIRED>
+<!ELEMENT student EMPTY>
+<!ATTLIST student Aid CDATA #REQUIRED>
+<!ATTLIST student Cname CDATA #REQUIRED>
+<!ATTLIST student Bgroup CDATA #REQUIRED>
+<!ATTLIST student Dscholarship CDATA #IMPLIED>
+]>
+<list name="Students">
+	<student Aid="1" Bgroup="310" Cname="Vasya Pupkin" Dscholarship="2500"/>
+	<student Aid="2" Bgroup="315" Cname="Petr Ivanov" Dscholarship="14500"/>
+	<student Aid="3" Bgroup="412" Cname="Masha Sitnikova" Dscholarship="2500"/>
+	<student Aid="4" Bgroup="418" Cname="Alexandr Kozlov" Dscholarship="0"/>
+	<student Aid="5" Bgroup="511" Cname="Ilya Smirnov" Dscholarship="4000"/>
+</list>
